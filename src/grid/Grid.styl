@@ -1,0 +1,28 @@
+.uv-grid-column
+    flex-shrink 0
+    flex-grow 0
+    overflow hidden
+    box-shadow 0 0 0 1px inset
+    display flex
+    align-items center
+    padding 1em
+    
+.uv-grid-header-colgroup
+  box-shadow 0 0 0 1px inset
+  .label
+      @extend .uv-grid-column
+  .content
+      display flex
+
+.uv-grid-header-colgroup + .uv-grid-header-colgroup
+    margin-left: 10px
+    
+.uv-grid-row
+    display flex
+
+.uv-grid
+    display block
+    
+.uv-grid-header
+    display flex
+    align-items flex-end

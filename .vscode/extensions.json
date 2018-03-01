@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"sysoev.language-stylus",
+		"octref.vetur",
+		"PKief.material-icon-theme",
+		"dracula-theme.theme-dracula",
+	]
+}
